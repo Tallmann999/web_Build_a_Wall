@@ -1,0 +1,2050 @@
+{
+  "version": 1,
+  "atlases": [
+    {
+      "file": "atlas-0.webp",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 786958,
+      "runtime": true
+    },
+    {
+      "file": "atlas-1.webp",
+      "width": 2048,
+      "height": 648,
+      "bytes": 301932,
+      "runtime": true
+    },
+    {
+      "file": "atlas-2.webp",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 666976,
+      "runtime": false
+    },
+    {
+      "file": "atlas-3.webp",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 796798,
+      "runtime": false
+    },
+    {
+      "file": "atlas-4.webp",
+      "width": 2048,
+      "height": 716,
+      "bytes": 355168,
+      "runtime": false
+    }
+  ],
+  "frames": {
+    "logo": {
+      "page": 0,
+      "x": 4,
+      "y": 4,
+      "w": 640,
+      "h": 524,
+      "runtime": true
+    },
+    "townhall": {
+      "page": 0,
+      "x": 652,
+      "y": 4,
+      "w": 512,
+      "h": 429,
+      "runtime": true
+    },
+    "titan-boss": {
+      "page": 0,
+      "x": 1172,
+      "y": 4,
+      "w": 360,
+      "h": 384,
+      "runtime": true
+    },
+    "titan-armored": {
+      "page": 0,
+      "x": 1540,
+      "y": 4,
+      "w": 314,
+      "h": 342,
+      "runtime": true
+    },
+    "titan-clay": {
+      "page": 0,
+      "x": 4,
+      "y": 536,
+      "w": 308,
+      "h": 332,
+      "runtime": true
+    },
+    "titan-stone": {
+      "page": 0,
+      "x": 320,
+      "y": 536,
+      "w": 338,
+      "h": 324,
+      "runtime": true
+    },
+    "market": {
+      "page": 0,
+      "x": 666,
+      "y": 536,
+      "w": 389,
+      "h": 321,
+      "runtime": true
+    },
+    "build-glow": {
+      "page": 0,
+      "x": 1063,
+      "y": 536,
+      "w": 281,
+      "h": 320,
+      "runtime": true
+    },
+    "builder-plan": {
+      "page": 0,
+      "x": 1352,
+      "y": 536,
+      "w": 230,
+      "h": 283,
+      "runtime": true
+    },
+    "builder": {
+      "page": 0,
+      "x": 1590,
+      "y": 536,
+      "w": 199,
+      "h": 282,
+      "runtime": true
+    },
+    "builder-side": {
+      "page": 0,
+      "x": 1797,
+      "y": 536,
+      "w": 114,
+      "h": 281,
+      "runtime": true
+    },
+    "forge": {
+      "page": 0,
+      "x": 4,
+      "y": 876,
+      "w": 421,
+      "h": 272,
+      "runtime": true
+    },
+    "engineer": {
+      "page": 0,
+      "x": 433,
+      "y": 876,
+      "w": 221,
+      "h": 269,
+      "runtime": true
+    },
+    "target-glow": {
+      "page": 0,
+      "x": 662,
+      "y": 876,
+      "w": 251,
+      "h": 256,
+      "runtime": true
+    },
+    "impact": {
+      "page": 0,
+      "x": 921,
+      "y": 876,
+      "w": 256,
+      "h": 255,
+      "runtime": true
+    },
+    "repair-glow": {
+      "page": 0,
+      "x": 1185,
+      "y": 876,
+      "w": 241,
+      "h": 253,
+      "runtime": true
+    },
+    "smoke": {
+      "page": 0,
+      "x": 1434,
+      "y": 876,
+      "w": 233,
+      "h": 251,
+      "runtime": true
+    },
+    "badge-victory": {
+      "page": 0,
+      "x": 4,
+      "y": 1156,
+      "w": 384,
+      "h": 250,
+      "runtime": true
+    },
+    "badge-defeat": {
+      "page": 0,
+      "x": 396,
+      "y": 1156,
+      "w": 358,
+      "h": 225,
+      "runtime": true
+    },
+    "button-play": {
+      "page": 0,
+      "x": 762,
+      "y": 1156,
+      "w": 418,
+      "h": 213,
+      "runtime": true
+    },
+    "bakery": {
+      "page": 0,
+      "x": 1188,
+      "y": 1156,
+      "w": 240,
+      "h": 211,
+      "runtime": true
+    },
+    "house-red": {
+      "page": 0,
+      "x": 1436,
+      "y": 1156,
+      "w": 219,
+      "h": 210,
+      "runtime": true
+    },
+    "house-blue": {
+      "page": 0,
+      "x": 1663,
+      "y": 1156,
+      "w": 202,
+      "h": 209,
+      "runtime": true
+    },
+    "wall-5": {
+      "page": 0,
+      "x": 4,
+      "y": 1414,
+      "w": 353,
+      "h": 206,
+      "runtime": true
+    },
+    "damaged-5": {
+      "page": 0,
+      "x": 365,
+      "y": 1414,
+      "w": 349,
+      "h": 204,
+      "runtime": true
+    },
+    "burst": {
+      "page": 0,
+      "x": 722,
+      "y": 1414,
+      "w": 209,
+      "h": 204,
+      "runtime": true
+    },
+    "cash-stack": {
+      "page": 0,
+      "x": 939,
+      "y": 1414,
+      "w": 256,
+      "h": 200,
+      "runtime": true
+    },
+    "cannonball": {
+      "page": 0,
+      "x": 1203,
+      "y": 1414,
+      "w": 194,
+      "h": 196,
+      "runtime": true
+    },
+    "lamp": {
+      "page": 0,
+      "x": 1405,
+      "y": 1414,
+      "w": 58,
+      "h": 186,
+      "runtime": true
+    },
+    "button-bag": {
+      "page": 0,
+      "x": 1471,
+      "y": 1414,
+      "w": 192,
+      "h": 180,
+      "runtime": true
+    },
+    "cash-flying": {
+      "page": 0,
+      "x": 1671,
+      "y": 1414,
+      "w": 256,
+      "h": 179,
+      "runtime": true
+    },
+    "warehouse": {
+      "page": 0,
+      "x": 4,
+      "y": 1628,
+      "w": 256,
+      "h": 177,
+      "runtime": true
+    },
+    "button-cancel": {
+      "page": 0,
+      "x": 268,
+      "y": 1628,
+      "w": 192,
+      "h": 177,
+      "runtime": true
+    },
+    "damaged-4": {
+      "page": 0,
+      "x": 468,
+      "y": 1628,
+      "w": 344,
+      "h": 163,
+      "runtime": true
+    },
+    "button-pause": {
+      "page": 0,
+      "x": 820,
+      "y": 1628,
+      "w": 163,
+      "h": 162,
+      "runtime": true
+    },
+    "sky-day": {
+      "page": 0,
+      "x": 991,
+      "y": 1628,
+      "w": 541,
+      "h": 160,
+      "runtime": true
+    },
+    "shop-material-wood": {
+      "page": 0,
+      "x": 1540,
+      "y": 1628,
+      "w": 126,
+      "h": 155,
+      "runtime": true
+    },
+    "shop-material-stone": {
+      "page": 0,
+      "x": 1674,
+      "y": 1628,
+      "w": 125,
+      "h": 155,
+      "runtime": true
+    },
+    "shop-material-steel": {
+      "page": 0,
+      "x": 1807,
+      "y": 1628,
+      "w": 131,
+      "h": 155,
+      "runtime": true
+    },
+    "shop-material-bastion": {
+      "page": 0,
+      "x": 4,
+      "y": 1813,
+      "w": 125,
+      "h": 155,
+      "runtime": true
+    },
+    "shop-material-citadel": {
+      "page": 0,
+      "x": 137,
+      "y": 1813,
+      "w": 159,
+      "h": 155,
+      "runtime": true
+    },
+    "wall-4": {
+      "page": 0,
+      "x": 304,
+      "y": 1813,
+      "w": 347,
+      "h": 152,
+      "runtime": true
+    },
+    "wall-3": {
+      "page": 0,
+      "x": 659,
+      "y": 1813,
+      "w": 344,
+      "h": 150,
+      "runtime": true
+    },
+    "damaged-3": {
+      "page": 0,
+      "x": 1011,
+      "y": 1813,
+      "w": 341,
+      "h": 150,
+      "runtime": true
+    },
+    "cannon-5": {
+      "page": 0,
+      "x": 1360,
+      "y": 1813,
+      "w": 160,
+      "h": 149,
+      "runtime": true
+    },
+    "terrain-flat": {
+      "page": 1,
+      "x": 4,
+      "y": 4,
+      "w": 539,
+      "h": 148,
+      "runtime": true
+    },
+    "landscape-day": {
+      "page": 1,
+      "x": 551,
+      "y": 4,
+      "w": 1412,
+      "h": 147,
+      "runtime": true
+    },
+    "button-green": {
+      "page": 1,
+      "x": 4,
+      "y": 160,
+      "w": 336,
+      "h": 147,
+      "runtime": true
+    },
+    "rubble-5": {
+      "page": 1,
+      "x": 348,
+      "y": 160,
+      "w": 377,
+      "h": 146,
+      "runtime": true
+    },
+    "wall-2": {
+      "page": 1,
+      "x": 733,
+      "y": 160,
+      "w": 336,
+      "h": 143,
+      "runtime": true
+    },
+    "damaged-2": {
+      "page": 1,
+      "x": 1077,
+      "y": 160,
+      "w": 333,
+      "h": 142,
+      "runtime": true
+    },
+    "cannon-1": {
+      "page": 1,
+      "x": 1418,
+      "y": 160,
+      "w": 160,
+      "h": 141,
+      "runtime": true
+    },
+    "cannon-4": {
+      "page": 1,
+      "x": 1586,
+      "y": 160,
+      "w": 160,
+      "h": 141,
+      "runtime": true
+    },
+    "cannon-2": {
+      "page": 1,
+      "x": 1754,
+      "y": 160,
+      "w": 160,
+      "h": 139,
+      "runtime": true
+    },
+    "cannon-3": {
+      "page": 1,
+      "x": 4,
+      "y": 315,
+      "w": 160,
+      "h": 137,
+      "runtime": true
+    },
+    "tree": {
+      "page": 1,
+      "x": 172,
+      "y": 315,
+      "w": 113,
+      "h": 136,
+      "runtime": true
+    },
+    "damaged-1": {
+      "page": 1,
+      "x": 293,
+      "y": 315,
+      "w": 330,
+      "h": 122,
+      "runtime": true
+    },
+    "wall-1": {
+      "page": 1,
+      "x": 631,
+      "y": 315,
+      "w": 333,
+      "h": 121,
+      "runtime": true
+    },
+    "rubble-2": {
+      "page": 1,
+      "x": 972,
+      "y": 315,
+      "w": 353,
+      "h": 118,
+      "runtime": true
+    },
+    "tree-pine": {
+      "page": 1,
+      "x": 1333,
+      "y": 315,
+      "w": 86,
+      "h": 118,
+      "runtime": true
+    },
+    "rubble-4": {
+      "page": 1,
+      "x": 1427,
+      "y": 315,
+      "w": 369,
+      "h": 117,
+      "runtime": true
+    },
+    "arrow-right": {
+      "page": 1,
+      "x": 1804,
+      "y": 315,
+      "w": 121,
+      "h": 113,
+      "runtime": true
+    },
+    "rubble-3": {
+      "page": 1,
+      "x": 4,
+      "y": 460,
+      "w": 348,
+      "h": 110,
+      "runtime": true
+    },
+    "rubble-1": {
+      "page": 1,
+      "x": 360,
+      "y": 460,
+      "w": 346,
+      "h": 103,
+      "runtime": true
+    },
+    "wall-foundation": {
+      "page": 1,
+      "x": 714,
+      "y": 460,
+      "w": 383,
+      "h": 89,
+      "runtime": true
+    },
+    "city-path": {
+      "page": 1,
+      "x": 1105,
+      "y": 460,
+      "w": 271,
+      "h": 80,
+      "runtime": true
+    },
+    "city-stone": {
+      "page": 1,
+      "x": 1384,
+      "y": 460,
+      "w": 265,
+      "h": 80,
+      "runtime": true
+    },
+    "crates": {
+      "page": 1,
+      "x": 1657,
+      "y": 460,
+      "w": 120,
+      "h": 78,
+      "runtime": true
+    },
+    "build-dot-1": {
+      "page": 1,
+      "x": 1785,
+      "y": 460,
+      "w": 66,
+      "h": 66,
+      "runtime": true
+    },
+    "road-long": {
+      "page": 1,
+      "x": 4,
+      "y": 578,
+      "w": 1379,
+      "h": 66,
+      "runtime": true
+    },
+    "barrel": {
+      "page": 1,
+      "x": 1391,
+      "y": 578,
+      "w": 63,
+      "h": 65,
+      "runtime": true
+    },
+    "bush-flowers": {
+      "page": 1,
+      "x": 1462,
+      "y": 578,
+      "w": 95,
+      "h": 55,
+      "runtime": true
+    },
+    "rock-grass": {
+      "page": 1,
+      "x": 1565,
+      "y": 578,
+      "w": 67,
+      "h": 45,
+      "runtime": true
+    },
+    "grass-a": {
+      "page": 1,
+      "x": 1640,
+      "y": 578,
+      "w": 50,
+      "h": 38,
+      "runtime": true
+    },
+    "shop-frame": {
+      "page": 2,
+      "x": 4,
+      "y": 4,
+      "w": 582,
+      "h": 484,
+      "runtime": false
+    },
+    "tutorial-art": {
+      "page": 2,
+      "x": 594,
+      "y": 4,
+      "w": 512,
+      "h": 279,
+      "runtime": false
+    },
+    "cracks": {
+      "page": 2,
+      "x": 1114,
+      "y": 4,
+      "w": 196,
+      "h": 269,
+      "runtime": false
+    },
+    "heal-glow": {
+      "page": 2,
+      "x": 1318,
+      "y": 4,
+      "w": 269,
+      "h": 266,
+      "runtime": false
+    },
+    "merchant": {
+      "page": 2,
+      "x": 1595,
+      "y": 4,
+      "w": 291,
+      "h": 262,
+      "runtime": false
+    },
+    "emblem-castle": {
+      "page": 2,
+      "x": 4,
+      "y": 496,
+      "w": 237,
+      "h": 256,
+      "runtime": false
+    },
+    "card-wood": {
+      "page": 2,
+      "x": 249,
+      "y": 496,
+      "w": 126,
+      "h": 256,
+      "runtime": false
+    },
+    "card-stone": {
+      "page": 2,
+      "x": 383,
+      "y": 496,
+      "w": 125,
+      "h": 256,
+      "runtime": false
+    },
+    "card-steel": {
+      "page": 2,
+      "x": 516,
+      "y": 496,
+      "w": 128,
+      "h": 256,
+      "runtime": false
+    },
+    "card-bastion": {
+      "page": 2,
+      "x": 652,
+      "y": 496,
+      "w": 130,
+      "h": 256,
+      "runtime": false
+    },
+    "card-citadel": {
+      "page": 2,
+      "x": 790,
+      "y": 496,
+      "w": 149,
+      "h": 256,
+      "runtime": false
+    },
+    "emblem-wall": {
+      "page": 2,
+      "x": 947,
+      "y": 496,
+      "w": 211,
+      "h": 253,
+      "runtime": false
+    },
+    "prop-barrel": {
+      "page": 2,
+      "x": 1166,
+      "y": 496,
+      "w": 215,
+      "h": 251,
+      "runtime": false
+    },
+    "hammer": {
+      "page": 2,
+      "x": 1389,
+      "y": 496,
+      "w": 210,
+      "h": 246,
+      "runtime": false
+    },
+    "wrench": {
+      "page": 2,
+      "x": 1607,
+      "y": 496,
+      "w": 197,
+      "h": 241,
+      "runtime": false
+    },
+    "prop-crate": {
+      "page": 2,
+      "x": 4,
+      "y": 760,
+      "w": 245,
+      "h": 239,
+      "runtime": false
+    },
+    "chest": {
+      "page": 2,
+      "x": 257,
+      "y": 760,
+      "w": 251,
+      "h": 236,
+      "runtime": false
+    },
+    "panel-blue": {
+      "page": 2,
+      "x": 516,
+      "y": 760,
+      "w": 350,
+      "h": 234,
+      "runtime": false
+    },
+    "block-paving": {
+      "page": 2,
+      "x": 874,
+      "y": 760,
+      "w": 242,
+      "h": 232,
+      "runtime": false
+    },
+    "block-earth": {
+      "page": 2,
+      "x": 1124,
+      "y": 760,
+      "w": 240,
+      "h": 232,
+      "runtime": false
+    },
+    "sign-empty": {
+      "page": 2,
+      "x": 1372,
+      "y": 760,
+      "w": 188,
+      "h": 232,
+      "runtime": false
+    },
+    "block-grass": {
+      "page": 2,
+      "x": 1568,
+      "y": 760,
+      "w": 243,
+      "h": 231,
+      "runtime": false
+    },
+    "block-dirt": {
+      "page": 2,
+      "x": 4,
+      "y": 1007,
+      "w": 240,
+      "h": 231,
+      "runtime": false
+    },
+    "block-stone": {
+      "page": 2,
+      "x": 252,
+      "y": 1007,
+      "w": 241,
+      "h": 231,
+      "runtime": false
+    },
+    "block-brick": {
+      "page": 2,
+      "x": 501,
+      "y": 1007,
+      "w": 241,
+      "h": 231,
+      "runtime": false
+    },
+    "block-cracked": {
+      "page": 2,
+      "x": 750,
+      "y": 1007,
+      "w": 240,
+      "h": 231,
+      "runtime": false
+    },
+    "warning-glow": {
+      "page": 2,
+      "x": 998,
+      "y": 1007,
+      "w": 252,
+      "h": 224,
+      "runtime": false
+    },
+    "wave-banner": {
+      "page": 2,
+      "x": 1258,
+      "y": 1007,
+      "w": 320,
+      "h": 224,
+      "runtime": false
+    },
+    "rock-large": {
+      "page": 2,
+      "x": 1586,
+      "y": 1007,
+      "w": 256,
+      "h": 221,
+      "runtime": false
+    },
+    "locked-card": {
+      "page": 2,
+      "x": 1850,
+      "y": 1007,
+      "w": 186,
+      "h": 220,
+      "runtime": false
+    },
+    "panel-gold": {
+      "page": 2,
+      "x": 4,
+      "y": 1246,
+      "w": 277,
+      "h": 217,
+      "runtime": false
+    },
+    "badge-finish": {
+      "page": 2,
+      "x": 289,
+      "y": 1246,
+      "w": 291,
+      "h": 216,
+      "runtime": false
+    },
+    "bush-blocky": {
+      "page": 2,
+      "x": 588,
+      "y": 1246,
+      "w": 256,
+      "h": 216,
+      "runtime": false
+    },
+    "sell-card": {
+      "page": 2,
+      "x": 852,
+      "y": 1246,
+      "w": 243,
+      "h": 216,
+      "runtime": false
+    },
+    "health": {
+      "page": 2,
+      "x": 1103,
+      "y": 1246,
+      "w": 215,
+      "h": 214,
+      "runtime": false
+    },
+    "coin-stack": {
+      "page": 2,
+      "x": 1326,
+      "y": 1246,
+      "w": 256,
+      "h": 213,
+      "runtime": false
+    },
+    "impact-dirt": {
+      "page": 2,
+      "x": 1590,
+      "y": 1246,
+      "w": 256,
+      "h": 212,
+      "runtime": false
+    },
+    "blueprint": {
+      "page": 2,
+      "x": 4,
+      "y": 1471,
+      "w": 256,
+      "h": 212,
+      "runtime": false
+    },
+    "shield": {
+      "page": 2,
+      "x": 268,
+      "y": 1471,
+      "w": 181,
+      "h": 210,
+      "runtime": false
+    },
+    "panel-purple": {
+      "page": 2,
+      "x": 457,
+      "y": 1471,
+      "w": 227,
+      "h": 207,
+      "runtime": false
+    },
+    "panel-red": {
+      "page": 2,
+      "x": 692,
+      "y": 1471,
+      "w": 493,
+      "h": 207,
+      "runtime": false
+    },
+    "house-gold": {
+      "page": 2,
+      "x": 1193,
+      "y": 1471,
+      "w": 214,
+      "h": 206,
+      "runtime": false
+    },
+    "selection-frame": {
+      "page": 2,
+      "x": 1415,
+      "y": 1471,
+      "w": 206,
+      "h": 206,
+      "runtime": false
+    },
+    "backpack-panel": {
+      "page": 2,
+      "x": 4,
+      "y": 1691,
+      "w": 487,
+      "h": 205,
+      "runtime": false
+    },
+    "cash-burst": {
+      "page": 2,
+      "x": 499,
+      "y": 1691,
+      "w": 256,
+      "h": 204,
+      "runtime": false
+    },
+    "target": {
+      "page": 2,
+      "x": 763,
+      "y": 1691,
+      "w": 204,
+      "h": 203,
+      "runtime": false
+    },
+    "bank": {
+      "page": 2,
+      "x": 975,
+      "y": 1691,
+      "w": 216,
+      "h": 202,
+      "runtime": false
+    },
+    "material-stone": {
+      "page": 2,
+      "x": 1199,
+      "y": 1691,
+      "w": 244,
+      "h": 202,
+      "runtime": false
+    },
+    "debris": {
+      "page": 2,
+      "x": 1451,
+      "y": 1691,
+      "w": 227,
+      "h": 196,
+      "runtime": false
+    },
+    "upgrade": {
+      "page": 2,
+      "x": 1686,
+      "y": 1691,
+      "w": 176,
+      "h": 196,
+      "runtime": false
+    },
+    "tutorial-bubble": {
+      "page": 3,
+      "x": 4,
+      "y": 4,
+      "w": 444,
+      "h": 196,
+      "runtime": false
+    },
+    "repair": {
+      "page": 3,
+      "x": 456,
+      "y": 4,
+      "w": 227,
+      "h": 194,
+      "runtime": false
+    },
+    "material-wood": {
+      "page": 3,
+      "x": 691,
+      "y": 4,
+      "w": 256,
+      "h": 193,
+      "runtime": false
+    },
+    "pointer-hand": {
+      "page": 3,
+      "x": 955,
+      "y": 4,
+      "w": 137,
+      "h": 192,
+      "runtime": false
+    },
+    "card-small-steel": {
+      "page": 3,
+      "x": 1100,
+      "y": 4,
+      "w": 148,
+      "h": 192,
+      "runtime": false
+    },
+    "card-small-bastion": {
+      "page": 3,
+      "x": 1256,
+      "y": 4,
+      "w": 149,
+      "h": 192,
+      "runtime": false
+    },
+    "card-small-citadel": {
+      "page": 3,
+      "x": 1413,
+      "y": 4,
+      "w": 151,
+      "h": 192,
+      "runtime": false
+    },
+    "card-small-stone": {
+      "page": 3,
+      "x": 1572,
+      "y": 4,
+      "w": 146,
+      "h": 191,
+      "runtime": false
+    },
+    "card-small-wood": {
+      "page": 3,
+      "x": 1726,
+      "y": 4,
+      "w": 147,
+      "h": 190,
+      "runtime": false
+    },
+    "badge-warning": {
+      "page": 3,
+      "x": 4,
+      "y": 208,
+      "w": 256,
+      "h": 188,
+      "runtime": false
+    },
+    "badge-locked": {
+      "page": 3,
+      "x": 268,
+      "y": 208,
+      "w": 256,
+      "h": 187,
+      "runtime": false
+    },
+    "badge-star": {
+      "page": 3,
+      "x": 532,
+      "y": 208,
+      "w": 256,
+      "h": 185,
+      "runtime": false
+    },
+    "lamp-hanging": {
+      "page": 3,
+      "x": 796,
+      "y": 208,
+      "w": 92,
+      "h": 183,
+      "runtime": false
+    },
+    "material-steel": {
+      "page": 3,
+      "x": 896,
+      "y": 208,
+      "w": 256,
+      "h": 183,
+      "runtime": false
+    },
+    "terrain-rock": {
+      "page": 3,
+      "x": 1160,
+      "y": 208,
+      "w": 542,
+      "h": 183,
+      "runtime": false
+    },
+    "cone": {
+      "page": 3,
+      "x": 1710,
+      "y": 208,
+      "w": 179,
+      "h": 181,
+      "runtime": false
+    },
+    "spinner": {
+      "page": 3,
+      "x": 4,
+      "y": 404,
+      "w": 172,
+      "h": 180,
+      "runtime": false
+    },
+    "button-upgrade": {
+      "page": 3,
+      "x": 184,
+      "y": 404,
+      "w": 192,
+      "h": 180,
+      "runtime": false
+    },
+    "terrain-grass": {
+      "page": 3,
+      "x": 384,
+      "y": 404,
+      "w": 542,
+      "h": 179,
+      "runtime": false
+    },
+    "button-shop": {
+      "page": 3,
+      "x": 934,
+      "y": 404,
+      "w": 192,
+      "h": 177,
+      "runtime": false
+    },
+    "button-repair": {
+      "page": 3,
+      "x": 1134,
+      "y": 404,
+      "w": 192,
+      "h": 176,
+      "runtime": false
+    },
+    "button-confirm": {
+      "page": 3,
+      "x": 1334,
+      "y": 404,
+      "w": 192,
+      "h": 176,
+      "runtime": false
+    },
+    "tooltip-panel": {
+      "page": 3,
+      "x": 1534,
+      "y": 404,
+      "w": 334,
+      "h": 176,
+      "runtime": false
+    },
+    "hud-city": {
+      "page": 3,
+      "x": 4,
+      "y": 592,
+      "w": 467,
+      "h": 175,
+      "runtime": false
+    },
+    "projectile": {
+      "page": 3,
+      "x": 479,
+      "y": 592,
+      "w": 256,
+      "h": 172,
+      "runtime": false
+    },
+    "flowers": {
+      "page": 3,
+      "x": 743,
+      "y": 592,
+      "w": 245,
+      "h": 169,
+      "runtime": false
+    },
+    "bench": {
+      "page": 3,
+      "x": 996,
+      "y": 592,
+      "w": 256,
+      "h": 168,
+      "runtime": false
+    },
+    "muzzle": {
+      "page": 3,
+      "x": 1260,
+      "y": 592,
+      "w": 256,
+      "h": 168,
+      "runtime": false
+    },
+    "landscape-castle": {
+      "page": 3,
+      "x": 4,
+      "y": 775,
+      "w": 1412,
+      "h": 166,
+      "runtime": false
+    },
+    "hud-money": {
+      "page": 3,
+      "x": 1424,
+      "y": 775,
+      "w": 434,
+      "h": 166,
+      "runtime": false
+    },
+    "grass-large": {
+      "page": 3,
+      "x": 4,
+      "y": 949,
+      "w": 241,
+      "h": 164,
+      "runtime": false
+    },
+    "button-settings": {
+      "page": 3,
+      "x": 253,
+      "y": 949,
+      "w": 165,
+      "h": 162,
+      "runtime": false
+    },
+    "hud-wave": {
+      "page": 3,
+      "x": 426,
+      "y": 949,
+      "w": 540,
+      "h": 161,
+      "runtime": false
+    },
+    "sky-sunset": {
+      "page": 3,
+      "x": 974,
+      "y": 949,
+      "w": 542,
+      "h": 161,
+      "runtime": false
+    },
+    "sky-clouds": {
+      "page": 3,
+      "x": 4,
+      "y": 1121,
+      "w": 542,
+      "h": 160,
+      "runtime": false
+    },
+    "sandbags": {
+      "page": 3,
+      "x": 554,
+      "y": 1121,
+      "w": 256,
+      "h": 156,
+      "runtime": false
+    },
+    "terrain-dirt": {
+      "page": 3,
+      "x": 818,
+      "y": 1121,
+      "w": 541,
+      "h": 156,
+      "runtime": false
+    },
+    "tool-crate": {
+      "page": 3,
+      "x": 1367,
+      "y": 1121,
+      "w": 192,
+      "h": 154,
+      "runtime": false
+    },
+    "rocks-small": {
+      "page": 3,
+      "x": 1567,
+      "y": 1121,
+      "w": 243,
+      "h": 153,
+      "runtime": false
+    },
+    "button-settings-blue": {
+      "page": 3,
+      "x": 4,
+      "y": 1289,
+      "w": 256,
+      "h": 152,
+      "runtime": false
+    },
+    "landscape-sunset": {
+      "page": 3,
+      "x": 268,
+      "y": 1289,
+      "w": 1412,
+      "h": 150,
+      "runtime": false
+    },
+    "terrain-path": {
+      "page": 3,
+      "x": 4,
+      "y": 1449,
+      "w": 540,
+      "h": 147,
+      "runtime": false
+    },
+    "planks": {
+      "page": 3,
+      "x": 552,
+      "y": 1449,
+      "w": 227,
+      "h": 142,
+      "runtime": false
+    },
+    "terrain-paving": {
+      "page": 3,
+      "x": 787,
+      "y": 1449,
+      "w": 541,
+      "h": 141,
+      "runtime": false
+    },
+    "coins": {
+      "page": 3,
+      "x": 1336,
+      "y": 1449,
+      "w": 186,
+      "h": 140,
+      "runtime": false
+    },
+    "cash": {
+      "page": 3,
+      "x": 1530,
+      "y": 1449,
+      "w": 192,
+      "h": 134,
+      "runtime": false
+    },
+    "hud-wall": {
+      "page": 3,
+      "x": 4,
+      "y": 1604,
+      "w": 489,
+      "h": 131,
+      "runtime": false
+    },
+    "sign-tools": {
+      "page": 3,
+      "x": 501,
+      "y": 1604,
+      "w": 115,
+      "h": 129,
+      "runtime": false
+    },
+    "sign-crown": {
+      "page": 3,
+      "x": 624,
+      "y": 1604,
+      "w": 116,
+      "h": 127,
+      "runtime": false
+    },
+    "arrow-up": {
+      "page": 3,
+      "x": 748,
+      "y": 1604,
+      "w": 125,
+      "h": 127,
+      "runtime": false
+    },
+    "arrow-down": {
+      "page": 3,
+      "x": 881,
+      "y": 1604,
+      "w": 125,
+      "h": 127,
+      "runtime": false
+    },
+    "pine": {
+      "page": 3,
+      "x": 1014,
+      "y": 1604,
+      "w": 86,
+      "h": 124,
+      "runtime": false
+    },
+    "tree-round": {
+      "page": 3,
+      "x": 1108,
+      "y": 1604,
+      "w": 108,
+      "h": 122,
+      "runtime": false
+    },
+    "skyline": {
+      "page": 3,
+      "x": 1224,
+      "y": 1604,
+      "w": 816,
+      "h": 122,
+      "runtime": false
+    },
+    "titan-mini": {
+      "page": 3,
+      "x": 4,
+      "y": 1743,
+      "w": 102,
+      "h": 121,
+      "runtime": false
+    },
+    "builder-mini": {
+      "page": 3,
+      "x": 114,
+      "y": 1743,
+      "w": 90,
+      "h": 120,
+      "runtime": false
+    },
+    "tree-tall": {
+      "page": 3,
+      "x": 212,
+      "y": 1743,
+      "w": 88,
+      "h": 118,
+      "runtime": false
+    },
+    "pine-small": {
+      "page": 3,
+      "x": 308,
+      "y": 1743,
+      "w": 79,
+      "h": 116,
+      "runtime": false
+    },
+    "button-blue": {
+      "page": 3,
+      "x": 395,
+      "y": 1743,
+      "w": 205,
+      "h": 115,
+      "runtime": false
+    },
+    "tree-autumn": {
+      "page": 3,
+      "x": 608,
+      "y": 1743,
+      "w": 85,
+      "h": 113,
+      "runtime": false
+    },
+    "arrow-left": {
+      "page": 3,
+      "x": 701,
+      "y": 1743,
+      "w": 122,
+      "h": 113,
+      "runtime": false
+    },
+    "noticeboard": {
+      "page": 3,
+      "x": 831,
+      "y": 1743,
+      "w": 119,
+      "h": 111,
+      "runtime": false
+    },
+    "ground-junction": {
+      "page": 3,
+      "x": 958,
+      "y": 1743,
+      "w": 447,
+      "h": 108,
+      "runtime": false
+    },
+    "route-blue": {
+      "page": 3,
+      "x": 1413,
+      "y": 1743,
+      "w": 512,
+      "h": 102,
+      "runtime": false
+    },
+    "reward-bag": {
+      "page": 3,
+      "x": 4,
+      "y": 1872,
+      "w": 215,
+      "h": 102,
+      "runtime": false
+    },
+    "route-red": {
+      "page": 3,
+      "x": 227,
+      "y": 1872,
+      "w": 512,
+      "h": 101,
+      "runtime": false
+    },
+    "reward-coins": {
+      "page": 3,
+      "x": 747,
+      "y": 1872,
+      "w": 215,
+      "h": 101,
+      "runtime": false
+    },
+    "reward-chest": {
+      "page": 3,
+      "x": 970,
+      "y": 1872,
+      "w": 217,
+      "h": 101,
+      "runtime": false
+    },
+    "backdrop-forest": {
+      "page": 3,
+      "x": 1195,
+      "y": 1872,
+      "w": 463,
+      "h": 100,
+      "runtime": false
+    },
+    "route-green": {
+      "page": 4,
+      "x": 4,
+      "y": 4,
+      "w": 512,
+      "h": 100,
+      "runtime": false
+    },
+    "backdrop-castle": {
+      "page": 4,
+      "x": 524,
+      "y": 4,
+      "w": 450,
+      "h": 99,
+      "runtime": false
+    },
+    "reward-coin": {
+      "page": 4,
+      "x": 982,
+      "y": 4,
+      "w": 198,
+      "h": 99,
+      "runtime": false
+    },
+    "ribbon-purple": {
+      "page": 4,
+      "x": 1188,
+      "y": 4,
+      "w": 271,
+      "h": 98,
+      "runtime": false
+    },
+    "ground-grass": {
+      "page": 4,
+      "x": 1467,
+      "y": 4,
+      "w": 470,
+      "h": 97,
+      "runtime": false
+    },
+    "ground-stone": {
+      "page": 4,
+      "x": 4,
+      "y": 112,
+      "w": 468,
+      "h": 97,
+      "runtime": false
+    },
+    "hud-progress": {
+      "page": 4,
+      "x": 480,
+      "y": 112,
+      "w": 383,
+      "h": 97,
+      "runtime": false
+    },
+    "tree-small": {
+      "page": 4,
+      "x": 871,
+      "y": 112,
+      "w": 75,
+      "h": 96,
+      "runtime": false
+    },
+    "backdrop-rocks": {
+      "page": 4,
+      "x": 954,
+      "y": 112,
+      "w": 462,
+      "h": 95,
+      "runtime": false
+    },
+    "ribbon-blue": {
+      "page": 4,
+      "x": 1424,
+      "y": 112,
+      "w": 268,
+      "h": 92,
+      "runtime": false
+    },
+    "hills": {
+      "page": 4,
+      "x": 4,
+      "y": 217,
+      "w": 820,
+      "h": 92,
+      "runtime": false
+    },
+    "tree-pine-small": {
+      "page": 4,
+      "x": 832,
+      "y": 217,
+      "w": 64,
+      "h": 90,
+      "runtime": false
+    },
+    "water": {
+      "page": 4,
+      "x": 904,
+      "y": 217,
+      "w": 808,
+      "h": 89,
+      "runtime": false
+    },
+    "wall-ground": {
+      "page": 4,
+      "x": 4,
+      "y": 317,
+      "w": 376,
+      "h": 86,
+      "runtime": false
+    },
+    "ribbon-red": {
+      "page": 4,
+      "x": 388,
+      "y": 317,
+      "w": 260,
+      "h": 85,
+      "runtime": false
+    },
+    "forest": {
+      "page": 4,
+      "x": 656,
+      "y": 317,
+      "w": 807,
+      "h": 85,
+      "runtime": false
+    },
+    "city-path-alt": {
+      "page": 4,
+      "x": 1471,
+      "y": 317,
+      "w": 285,
+      "h": 82,
+      "runtime": false
+    },
+    "hay": {
+      "page": 4,
+      "x": 1764,
+      "y": 317,
+      "w": 89,
+      "h": 80,
+      "runtime": false
+    },
+    "city-ground": {
+      "page": 4,
+      "x": 4,
+      "y": 411,
+      "w": 241,
+      "h": 80,
+      "runtime": false
+    },
+    "shop-tabs-icons": {
+      "page": 4,
+      "x": 253,
+      "y": 411,
+      "w": 700,
+      "h": 80,
+      "runtime": false
+    },
+    "city-grass": {
+      "page": 4,
+      "x": 961,
+      "y": 411,
+      "w": 248,
+      "h": 79,
+      "runtime": false
+    },
+    "planter": {
+      "page": 4,
+      "x": 1217,
+      "y": 411,
+      "w": 95,
+      "h": 76,
+      "runtime": false
+    },
+    "bush-white": {
+      "page": 4,
+      "x": 1320,
+      "y": 411,
+      "w": 129,
+      "h": 75,
+      "runtime": false
+    },
+    "stat-power": {
+      "page": 4,
+      "x": 1457,
+      "y": 411,
+      "w": 288,
+      "h": 75,
+      "runtime": false
+    },
+    "shop-tabs": {
+      "page": 4,
+      "x": 4,
+      "y": 499,
+      "w": 700,
+      "h": 75,
+      "runtime": false
+    },
+    "stat-health": {
+      "page": 4,
+      "x": 712,
+      "y": 499,
+      "w": 266,
+      "h": 74,
+      "runtime": false
+    },
+    "stat-shield": {
+      "page": 4,
+      "x": 986,
+      "y": 499,
+      "w": 269,
+      "h": 74,
+      "runtime": false
+    },
+    "fence": {
+      "page": 4,
+      "x": 1263,
+      "y": 499,
+      "w": 165,
+      "h": 73,
+      "runtime": false
+    },
+    "bush-gold": {
+      "page": 4,
+      "x": 1436,
+      "y": 499,
+      "w": 110,
+      "h": 73,
+      "runtime": false
+    },
+    "barrel-dark": {
+      "page": 4,
+      "x": 1554,
+      "y": 499,
+      "w": 62,
+      "h": 73,
+      "runtime": false
+    },
+    "shrub": {
+      "page": 4,
+      "x": 1624,
+      "y": 499,
+      "w": 90,
+      "h": 68,
+      "runtime": false
+    },
+    "build-dot-2": {
+      "page": 4,
+      "x": 1722,
+      "y": 499,
+      "w": 66,
+      "h": 67,
+      "runtime": false
+    },
+    "build-dot-3": {
+      "page": 4,
+      "x": 1796,
+      "y": 499,
+      "w": 67,
+      "h": 67,
+      "runtime": false
+    },
+    "build-dot-4": {
+      "page": 4,
+      "x": 1871,
+      "y": 499,
+      "w": 67,
+      "h": 67,
+      "runtime": false
+    },
+    "build-dot-5": {
+      "page": 4,
+      "x": 1946,
+      "y": 499,
+      "w": 67,
+      "h": 67,
+      "runtime": false
+    },
+    "build-dot-6": {
+      "page": 4,
+      "x": 4,
+      "y": 582,
+      "w": 66,
+      "h": 67,
+      "runtime": false
+    },
+    "gate": {
+      "page": 4,
+      "x": 78,
+      "y": 582,
+      "w": 192,
+      "h": 63,
+      "runtime": false
+    },
+    "tile-grass": {
+      "page": 4,
+      "x": 278,
+      "y": 582,
+      "w": 225,
+      "h": 62,
+      "runtime": false
+    },
+    "filter-all": {
+      "page": 4,
+      "x": 511,
+      "y": 582,
+      "w": 89,
+      "h": 61,
+      "runtime": false
+    },
+    "tile-dirt": {
+      "page": 4,
+      "x": 608,
+      "y": 582,
+      "w": 198,
+      "h": 60,
+      "runtime": false
+    },
+    "filter-wood": {
+      "page": 4,
+      "x": 814,
+      "y": 582,
+      "w": 111,
+      "h": 59,
+      "runtime": false
+    },
+    "filter-stone": {
+      "page": 4,
+      "x": 933,
+      "y": 582,
+      "w": 115,
+      "h": 59,
+      "runtime": false
+    },
+    "filter-citadel": {
+      "page": 4,
+      "x": 1056,
+      "y": 582,
+      "w": 123,
+      "h": 59,
+      "runtime": false
+    },
+    "bush-yellow": {
+      "page": 4,
+      "x": 1187,
+      "y": 582,
+      "w": 88,
+      "h": 58,
+      "runtime": false
+    },
+    "rocks": {
+      "page": 4,
+      "x": 1283,
+      "y": 582,
+      "w": 104,
+      "h": 58,
+      "runtime": false
+    },
+    "filter-steel": {
+      "page": 4,
+      "x": 1395,
+      "y": 582,
+      "w": 125,
+      "h": 58,
+      "runtime": false
+    },
+    "filter-bastion": {
+      "page": 4,
+      "x": 1528,
+      "y": 582,
+      "w": 121,
+      "h": 58,
+      "runtime": false
+    },
+    "tile-grass-rock": {
+      "page": 4,
+      "x": 1657,
+      "y": 582,
+      "w": 123,
+      "h": 57,
+      "runtime": false
+    },
+    "tile-stone": {
+      "page": 4,
+      "x": 1788,
+      "y": 582,
+      "w": 190,
+      "h": 56,
+      "runtime": false
+    },
+    "tile-stone-small": {
+      "page": 4,
+      "x": 4,
+      "y": 657,
+      "w": 193,
+      "h": 55,
+      "runtime": false
+    },
+    "bush": {
+      "page": 4,
+      "x": 205,
+      "y": 657,
+      "w": 88,
+      "h": 54,
+      "runtime": false
+    },
+    "rock-plant": {
+      "page": 4,
+      "x": 301,
+      "y": 657,
+      "w": 131,
+      "h": 53,
+      "runtime": false
+    },
+    "tile-grass-small": {
+      "page": 4,
+      "x": 440,
+      "y": 657,
+      "w": 166,
+      "h": 49,
+      "runtime": false
+    },
+    "tile-dirt-small": {
+      "page": 4,
+      "x": 614,
+      "y": 657,
+      "w": 185,
+      "h": 48,
+      "runtime": false
+    },
+    "log": {
+      "page": 4,
+      "x": 807,
+      "y": 657,
+      "w": 123,
+      "h": 44,
+      "runtime": false
+    },
+    "stump": {
+      "page": 4,
+      "x": 938,
+      "y": 657,
+      "w": 66,
+      "h": 44,
+      "runtime": false
+    },
+    "grass-b": {
+      "page": 4,
+      "x": 1012,
+      "y": 657,
+      "w": 43,
+      "h": 41,
+      "runtime": false
+    },
+    "log-small": {
+      "page": 4,
+      "x": 1063,
+      "y": 657,
+      "w": 64,
+      "h": 33,
+      "runtime": false
+    }
+  }
+}

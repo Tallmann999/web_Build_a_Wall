@@ -1,5 +1,12 @@
 const fs=require('node:fs'),path=require('node:path');
 const read=n=>fs.readFileSync(path.join(__dirname,n),'utf8');
-let html=read('shell.html').replace('/* STYLE */',()=>read('style.css')).replace('/* ENGINE */',()=>read('engine.js')).replace('/* CLIENT */',()=>read('client.js')).replace('/* START_IMAGE */',()=> 'data:image/png;base64,'+fs.readFileSync(path.join(__dirname,'assets/start-scene.png')).toString('base64'));
+const art=require('./runtime-art.cjs')(JSON.parse(read('assets/atlas.json')));
+art.atlases.forEach(a=>a.url='data:image/webp;base64,'+fs.readFileSync(path.join(__dirname,'assets',a.file)).toString('base64'));
+const skins={'.green-button,.shop-row .buy':'button-green','.close-button':'button-cancel','.build-site':'build-dot-1'};
+const artStyles=Object.entries(skins).map(([selector,name])=>{const f=art.frames[name],a=art.atlases[f.page];return `${selector}{background-image:var(--atlas-${f.page});background-repeat:no-repeat;background-size:${a.width/f.w*100}% ${a.height/f.h*100}%;background-position:${f.x/(a.width-f.w)*100}% ${f.y/(a.height-f.h)*100}%}`;}).join('\n');
+const cover='data:image/png;base64,'+fs.readFileSync(path.join(__dirname,'assets/start-scene.png')).toString('base64');
+let html=read('shell.html').replace('/* START_IMAGE */',()=>cover).replace('/* STYLE */',()=>read('style.css').replace('/* ART_STYLES */',()=>artStyles)).replace('/* ENGINE */',()=>read('engine.js')).replace('/* CLIENT */',()=>read('client.js').replace('/* ATLAS_DATA */',()=>JSON.stringify(art)));
 fs.mkdirSync(path.join(__dirname,'../outputs'),{recursive:true});fs.writeFileSync(path.join(__dirname,'../outputs/last-bastion.html'),html);
+const rootEntry=path.join(__dirname,'../../last-bastion.html');
+if(fs.existsSync(rootEntry))fs.writeFileSync(rootEntry,html);
 console.log('Built standalone prototype: '+Buffer.byteLength(html)+' bytes');
