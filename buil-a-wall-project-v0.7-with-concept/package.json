@@ -1,0 +1,13 @@
+{
+  "name": "buil-a-wall",
+  "version": "0.7.0",
+  "private": true,
+  "description": "Standalone 2D wall-building and titan-defense prototype",
+  "scripts": {
+    "build": "node work/assemble-client.cjs && node work/build.cjs",
+    "start": "node work/server.cjs",
+    "test": "node work/test-engine.cjs",
+    "check": "node work/check-build.cjs",
+    "balance": "node work/balance.cjs"
+  }
+}
